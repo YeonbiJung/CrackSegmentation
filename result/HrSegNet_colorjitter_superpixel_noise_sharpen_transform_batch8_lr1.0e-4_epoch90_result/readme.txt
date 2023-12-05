@@ -1,0 +1,1 @@
+모두 image sharpening이 test image transform에 적용되었음. 적용하지 않은 경우 따로, no sharpening on test transform을 명시함. 성능 감소로 추후에는 sharpening을 test image에 적용하지 않으며, train original image와 따로 shapening dataset을 만들어서 사용함. (original data + shaprening image data 로 나눠서 적용)
